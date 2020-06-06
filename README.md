@@ -4,7 +4,7 @@ This is a wordsearch puzzle solver. First, create a wordlist and a puzzle file a
 
 For this project, I used the C++ STL unordered_set (a hashtable) to store the wordlist. By using a hashtable, my program has constant insertion time when reading in the wordlist and constant lookup time when searching the puzzle. I used the C++ STL vector class for a vector of vectors of characters to store the puzzle grid. Last, I used the C++ STL set to store the answers of the wordsearch puzzle in alphabetical sorted order.
 
-I know this is not the most time and space efficient solution to solving a wordsearch. Using tries is much more efficient than this brute force solution. My purpose for this program was to demonstrate my knowledge of hashtables in C++ and the unordered_set is one such implementation in the C++ STL. This program is also helpful for many of puzzle competitions, such as the 2020 Harvard CS50X Puzzle Day Competition which had a word search puzzle (with some minor adjustments).
+I know this is not the most time and space efficient solution to solving a wordsearch. Using tries is much more efficient than this brute force solution. My purpose for this program was to demonstrate my knowledge of hashtables in C++ and the unordered_set is one such implementation in the C++ STL. This program is also helpful for many puzzle competitions, such as the 2020 Harvard CS50X Puzzle Day Competition which had a word search puzzle (with some minor adjustments).
 
 To compile the code, open terminal/command prompt to this directory and send the following command: "g++ -std=c++11 main.cpp student.cpp -o main". This will make an executable file called main.
 
